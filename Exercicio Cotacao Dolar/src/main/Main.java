@@ -18,7 +18,8 @@ public class Main {
 		double quantidade = sc.nextDouble();
 		
 		System.out.printf("Valor final: %.2f", Calculator.valorASerPago(cotacao, quantidade));
-
+		sc.close();
+		
 	}
 
 }
